@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACID-PROPERTIES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navigation">
+
+        <div class="brand">
+            <img src="img/ak_pic.jfif" alt="" class="pro-pic">
+            <p>Abdul Kadir's Blog</p></div>
+        <ul class="unordered-list nav-pills">
+          <li class="inline-list">
+            <a class="link-active" href="/">Home</a>
+          </li>
+        
+        <li class="inline-list"> 
+          <a href="/">Badges</a>
+        </li>
+        <li class="inline-list">
+          <a href="/">Follow</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <header class="header blogpage-header">
+      <img class="blog-header-img"    src="img/acid.png" />
+      <h1 class="header-heading">Acid Properties of a <span class=>Database</span></h1>
+      <h5 style="text-align:center" style="margin-block-end:0px">15-August-2022</h5>
+    </header>
+
+    <div class="container container-center">
+        <p>The ACID properties are meant for the transaction that goes through a different group of tasks, and there we come to see the role of the ACID properties.</p>
+
+        <p>
+            <strong>Atomicity: </strong>
+            The term atomicity defines that the data remains atomic. It means if any operation is performed on the data, either it should be performed or executed completely or should not be executed at all. It further means that the operation should not break in between or execute partially.
+        </p>
+        
+        <p>
+            <strong>Consistency: </strong>
+            The word consistency means that the value should remain preserved always. In DBMS
+            , the integrity of the data should be maintained, which means if a change in the database is made, it should remain preserved always.
+        </p>
+
+        <p>
+            <strong>Isolation: </strong>
+            The term 'isolation' means separation. In DBMS, Isolation is the property of a database where no data should affect the other one and may occur concurrently. In short, the operation on one database should begin when the operation on the first database gets complete. It means if two operations are being performed on two different databases, they may not affect the value of one another.
+        </p>
+
+        
+        <p>
+            <strong>Durability: </strong>
+            Durability ensures the permanency of something. In DBMS, the term durability ensures that the data after the successful execution of the operation becomes permanent in the database. The durability of the data should be so perfect that even if the system fails or leads to a crash, the database still survives. However, if gets lost, it becomes the responsibility of the recovery manager for ensuring the durability of the database. For committing the values, the COMMIT command must be used every time we make changes.
+        </p>
+
+
+        <p>
+            Therefore, the ACID property of DBMS plays a vital role in maintaining the consistency and availability of data in the database.
+        </p>
+
+        
+    </div>
+
+    
+<footer class="footer">
+    <div class="footer-heading">Connect with me on.....</div>
+    <ul class="unordered-list">
+      <li class="inline-list"><a href="https://www.linkedin.com/in/abdul-kadir-540a71123/" class="links"  target="_blank"><img src="img/ln.png" alt=""></a></li>
+      <li  class="inline-list"><a href="https://www.instagram.com/abdulq314/" class="links" target="_blank"><img src="img/insta.png" alt="instagram"></a></li>
+      <li class="inline-list"><a href="https://twitter.com/abdulq314" class=" links" target="_blank"><img src="img/twitter.png" alt=""></a></li>
+    </ul>
+  </footer>
+
+
+
+
+    
+</body>
+</html>
